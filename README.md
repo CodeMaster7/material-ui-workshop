@@ -28,7 +28,9 @@ Once we have it imported, it's time to start looking into what components we wan
 ### Color Themes
 
 The first thing you're going to need to bring into your application is a theme provider:
+
 `import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'`
+
 ^ This is required for v0.15.0 and later.
 
 Next, you'll wrap your App with the `<MuiThemeProvider></MuiThemeProvider>` tags. This can be done in your index.js file, wrapping your `<App />` there.
@@ -44,12 +46,13 @@ You'll then pass these into your `<MuiThemeProvider></MuiThemeProvider>` tags, c
 `<MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}></MuiThemeProvider>`
 Inside the function you could bring in your own color theme, if you have one.
 
-* That's it! You're all done with the basic setup. Now it's time to move onto the actual usages of the simple, user-friendly components!
+* That's it! You're all done with the basic setup. Now it's time to move on to the actual usages of the simple, user-friendly components!
 
 ### Components Available
 
 While there are a lot of different components we can use, there are a few we're going to go over this example:
 * - Drawer (And Menu Items)
+
 First, we need to import our Drawer with `import Drawer from 'material-ui/Drawer'`.
 
 The `<Drawer></Drawer>` component should have your `<MenuItem></MenuItem>` tags inside it. The MenuItems can have an onClick, or whatever you'd like. The Drawer will have an `open={}` toggle on it. This can be controlled however you'd like. I used state in this example. By default, the 
