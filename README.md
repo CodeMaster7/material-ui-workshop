@@ -49,14 +49,14 @@ Inside the function you could bring in your own color theme, if you have one.
 ### Components Available
 
 While there are a lot of different components we can use, there are a few we're going to go over this example:
-- Drawer (And Menu Items)
+- * Drawer (And Menu Items)
 First, we need to import our Drawer with `import Drawer from 'material-ui/Drawer'`.
 
 The `<Drawer></Drawer>` component should have your `<MenuItem></MenuItem>` tags inside it. The MenuItems can have an onClick, or whatever you'd like. The Drawer will have an `open={}` toggle on it. This can be controlled however you'd like. I used state in this example. By default, the 
-- Dropdown Menu
-- Dialog
-- Date Picker
-- AppBar
+- * Dropdown Menu
+- * Dialog
+- * Date Picker
+- * AppBar
 
 ## Resources
 
