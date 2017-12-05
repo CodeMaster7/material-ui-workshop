@@ -11,6 +11,9 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 // import getMuiTheme from 'material-ui/styles/getMuiTheme';
 // import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 
+// We would also need to change our MuiThemeProvider to:
+// <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}></MuiThemeProvider>
+
 ReactDOM.render(
 
     <MuiThemeProvider>

@@ -129,11 +129,23 @@ If we want to add some more features, we can modify with a few attributes:
 
 - __Text Field__
 
+`import TextField from 'material-ui/textField'`
 
-- __Progress (Loading Circle)__
+This one is pretty simple. I love the placeholder text animation, and that's about all I use this component for.
+
+Here are a few things you can do, if you'd like:
+
+1. `errorText="invalid entry"`
+    - This is the text that will display when there is an error (have to use ternary for this, because it always displays the error text. It's unfortunately not a toggle)
+2. `floatingLabelText="enter username"`
+    - The bread-and-butter of this component. It creates such a smooth, style-able placeholder text. A+, Google!
+3. `hintText="enter password"`
+    - This goes along very well with the previous attribute. After the other text has floated up, this appears to take it's place (until the user begins typing)
+
 
 ## Combining Components
 
+Google's Material Design team has done a wonderful job at creating this components in a way that allow for cross-usage. You could build almost an entire front-end app using Material-UI elements. I feel that it is very common that you'd see a Drawer with an AppBar inside of it. The AppBar would have as the iconElementRight an IconMenu, with MenuItem's inside. This is very powerful, and so I feel that spending an afternoon or two becoming familiar with Material-UI would be highly beneficial to anyone working in react!!
 
 
 ## Resources
@@ -143,20 +155,8 @@ If we want to add some more features, we can modify with a few attributes:
 [NPM Package for Material UI](https://www.npmjs.com/package/material-ui)
 [Official Material UI Docs](http://www.material-ui.com/#/get-started/required-knowledge)
 
+## Author Information
+This repo was created in it's entirety by [Andrew Garvin](https://github.com/dandrewgarvin). Please feel free to let me know how you enjoyed this repo. If you see any errors, or ways that this could be improved, fork, clone, modify, and submit a pull request!
 
-
-
-
-
-- Chip
-- Date Picker
-- __Dropdown Menu__
-- __Dialog__
-- Loading Circle (Axios) - Progress
-- Switches (Toggle, Radio, Check)
-- Snackbar
-- Stepper
-- __Tabs__
-- __Drawer/Menu Items__
-- __Text Field (Floating Label)__
-- __AppBar__
+Thanks <3
+-Andrew

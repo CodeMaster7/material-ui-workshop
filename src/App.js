@@ -6,6 +6,7 @@ import MatDrawer from './components/MatDrawer'
 import MatAppBar from './components/MatAppBar'
 import MatDialog from './components/MatDialog'
 import MatDatePicker from './components/MatDatePicker'
+import MatTextField from './components/MatTextField'
 
 class App extends Component {
   render() {
@@ -14,7 +15,8 @@ class App extends Component {
           {/* <MatDrawer /> */}
           {/* <MatAppBar /> */}
           {/* <MatDialog /> */}
-          <MatDatePicker />
+          {/* <MatDatePicker /> */}
+          <MatTextField />
         </div>
     );
   }
