@@ -2,8 +2,6 @@ import React from 'react'
 
 import AppBar from 'material-ui/AppBar'
 
-
-
 import IconMenu from 'material-ui/IconMenu';
 import MenuItem from 'material-ui/MenuItem';
 import IconButton from 'material-ui/IconButton';

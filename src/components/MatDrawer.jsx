@@ -26,7 +26,7 @@ class MatDrawer extends React.Component {
                 <button onClick={this.handleToggle}>Toggle Drawer</button>
                 <Drawer 
                     open={this.state.open} // remove to make the drawer always present
-                    // openSecondary // opens on the right side of the screen
+                    openSecondary={true} // opens on the right side of the screen
                     // width={700} // sets custom width
                     // docked={false} // allows for overlay (can click away, or press escape to close menu)
                     // onRequestChange={(open) => this.setState({open})} // doesn't do much on it's own. Pair with docked
@@ -34,6 +34,9 @@ class MatDrawer extends React.Component {
                     <MenuItem>First Item</MenuItem>
                     <MenuItem>Second Item</MenuItem>
                     <MenuItem>Third Item</MenuItem>
+                    <MenuItem>Fourth Item</MenuItem>
+                    <MenuItem>Fifth Item</MenuItem>
+                    <MenuItem>Sixth Item</MenuItem>
             </Drawer>
             </div>
         )
