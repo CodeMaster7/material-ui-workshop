@@ -150,10 +150,10 @@ Google's Material Design team has done a wonderful job at creating this componen
 
 ## Resources
 
-[What is Material Design?](https://material.io/)
-[Official Resources for Material Design](https://design.google/resources/)
-[NPM Package for Material UI](https://www.npmjs.com/package/material-ui)
-[Official Material UI Docs](http://www.material-ui.com/#/get-started/required-knowledge)
+- [What is Material Design?](https://material.io/)
+- [Official Resources for Material Design](https://design.google/resources/)
+- [NPM Package for Material UI](https://www.npmjs.com/package/material-ui)
+- [Official Material UI Docs](http://www.material-ui.com/#/get-started/required-knowledge)
 
 ## Author Information
 This repo was created in it's entirety by [Andrew Garvin](https://github.com/dandrewgarvin). Please feel free to let me know how you enjoyed this repo. If you see any errors, or ways that this could be improved, fork, clone, modify, and submit a pull request!
