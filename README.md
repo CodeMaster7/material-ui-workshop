@@ -151,6 +151,7 @@ Google's Material Design team has done a wonderful job at creating this componen
 ## Resources
 
 - [What is Material Design?](https://material.io/)
+- [What are the goals of Material Design?](https://material.io/guidelines/#introduction-goals)
 - [Official Resources for Material Design](https://design.google/resources/)
 - [NPM Package for Material UI](https://www.npmjs.com/package/material-ui)
 - [Official Material UI Docs](http://www.material-ui.com/#/get-started/required-knowledge)
