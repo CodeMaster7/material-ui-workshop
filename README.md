@@ -5,6 +5,8 @@
 ### What is Material Design?
 "Material Design is a unified system combining theory, resources, and tools that help you and your team get to the heart of the solution, together."
 
+It's sort of a 'visual language' that utilizes the classic principles of _good_ design with the innovation and possibility of technology.
+
 When we talk about Material Design from Google, we are talking about Google's initiative to combine resources and tools to help developers make functional, and appealing components.
 It is the over-arching set of principles and tools Google is creating to give access to these tools in each framework.
 Some of these tools include:
