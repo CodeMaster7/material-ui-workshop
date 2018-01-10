@@ -39,8 +39,8 @@ class MatDialog extends React.Component {
                 <Dialog
                     title="Andrew's Super Awesome Dialog Box"
                     actions={modalActions} // The buttons the user has access to click on. This points to the array I made. It can be a single element.
-                    // modal={true} // If false (default) the user can click away (or escape) from the modal to close the dialog box
-                    // onRequestClose={this.handleToggle} // pairs with the modal
+                    modal={false} // If false (default) the user can click away (or escape) from the modal to close the dialog box
+                    onRequestClose={this.handleToggle} // pairs with the modal
                     open={this.state.open} // required. Controls when the dialog is open or not.
                 >
                     Woah.... Hold on there buddy.... Are you sure you want to continue?
