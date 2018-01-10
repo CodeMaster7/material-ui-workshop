@@ -3,6 +3,9 @@
 ## What/Why Material UI?
 
 ### What is Material Design?
+
+* NOTE: _This is workshop covers version 0.20.0 of Material UI. As of Jan 2018, this is the most up-to-date version, but you can view the beta version of MUI (v1.0.0) by visiting material-ui-next.com_
+
 "Material Design is a unified system combining theory, resources, and tools that help you and your team get to the heart of the solution, together."
 
 It's sort of a 'visual language' that utilizes the classic principles of _good_ design with the innovation and possibility of technology.
